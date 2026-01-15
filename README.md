@@ -1,27 +1,27 @@
-# 📊 Análise de Performance Estudantil: Estratégias Multiclasse
+# **📊 Análise de Performance Estudantil e o uso de estratégias de classificação multiclasse**
 
 Este projeto explora a aplicação de modelos de Machine Learning para prever o desempenho acadêmico de estudantes de matemática em escolas portuguesas, utilizando o dataset "Student Performance" da UCI. O foco principal é a comparação entre duas abordagens de classificação multiclasse: **One-vs-All (OvA)** e **One-vs-One (OvO)**.
 
-## 🚀 Visão Geral do Projeto
+> ***Visão Geral do Projeto***
 
 O objetivo é classificar os alunos em diferentes níveis de notas com base em atributos demográficos, sociais e acadêmicos. Através da implementação de Regressão Logística, analisamos não apenas a precisão das predições, mas também quais variáveis mais influenciam o sucesso do estudante.
 
-## 🛠️ Stack Tecnológica
+> ***Stack Tecnológica***
 
 O projeto foi desenvolvido utilizando o ecossistema científico do Python, focado em alta performance para análise de dados e machine learning:
 
 * **Manipulação e Análise:**
     * ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=flat&logo=pandas&logoColor=white) — Limpeza de dados e engenharia de atributos.
     * ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=flat&logo=numpy&logoColor=white) — Processamento matricial e operações matemáticas.
+    * 
 * **Machine Learning (Scikit-Learn):**
     * ![Scikit-Learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=flat&logo=scikit-learn&logoColor=white) — Implementação dos modelos de **Regressão Logística** e estratégias **One-vs-One / One-vs-All**.
+
 * **Visualização de Dados:**
     * ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=flat&logo=Matplotlib&logoColor=black) — Criação de gráficos base para análise de impacto.
     * ![Seaborn](https://img.shields.io/badge/Seaborn-%234479A1.svg?style=flat&logo=python&logoColor=white) — Visualizações estatísticas avançadas e mapas de calor.
-* **Ambiente de Desenvolvimento:**
-    * ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA4F09.svg?style=flat&logo=jupyter&logoColor=white) — Documentação interativa e experimentação do modelo.
 
-## 📈 Resultados e Performance
+> ***Resultados***
 
 Observamos uma evolução significativa na capacidade preditiva ao comparar as estratégias:
 
@@ -32,9 +32,9 @@ Observamos uma evolução significativa na capacidade preditiva ao comparar as e
 
 A análise dos coeficientes revelou os fatores determinantes na educação:
 
-1.  **Histórico Acadêmico (G1 e G2):** São os preditores dominantes. No modelo OvO, a variável **G2** apresentou o maior impacto (**5.27**), seguida por **G1** (**2.81**).
-2.  **Esforço e Histórico:** O **tempo de estudo (studytime)** e o histórico de **reprovações (failures)** aparecem como os principais fatores secundários.
-3.  **Fatores Periféricos:** Variáveis como consumo de álcool e escolaridade dos pais tiveram impacto reduzido quando comparadas ao desempenho direto em sala de aula.
+- **Histórico Acadêmico (G1 e G2):** São os preditores dominantes. No modelo OvO, a variável **G2** apresentou o maior impacto (**5.27**), seguida por **G1** (**2.81**).
+- **Esforço e Histórico:** O **tempo de estudo (studytime)** e o histórico de **reprovações (failures)** aparecem como os principais fatores secundários.
+- **Fatores Periféricos:** Variáveis como consumo de álcool e escolaridade dos pais tiveram impacto reduzido quando comparadas ao desempenho direto em sala de aula.
 
 ---
 
