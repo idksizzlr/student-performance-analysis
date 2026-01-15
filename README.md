@@ -11,15 +11,15 @@ O objetivo é classificar os alunos em diferentes níveis de notas com base em a
 O projeto foi desenvolvido utilizando o ecossistema científico do Python, focado em alta performance para análise de dados e machine learning:
 
 * **Manipulação e Análise:**
-    * ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=flat&logo=pandas&logoColor=white) — Limpeza de dados e engenharia de atributos.
-    * ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=flat&logo=numpy&logoColor=white) — Processamento matricial e operações matemáticas.
+    * ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=flat&logo=pandas&logoColor=white) ~ Limpeza de dados e engenharia de atributos.
+    * ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=flat&logo=numpy&logoColor=white) ~ Processamento matricial e operações matemáticas.
     * 
 * **Machine Learning (Scikit-Learn):**
-    * ![Scikit-Learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=flat&logo=scikit-learn&logoColor=white) — Implementação dos modelos de **Regressão Logística** e estratégias **One-vs-One / One-vs-All**.
+    * ![Scikit-Learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=flat&logo=scikit-learn&logoColor=white) ~ Implementação dos modelos de **Regressão Logística** e estratégias **One-vs-One / One-vs-All**.
 
 * **Visualização de Dados:**
-    * ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=flat&logo=Matplotlib&logoColor=black) — Criação de gráficos base para análise de impacto.
-    * ![Seaborn](https://img.shields.io/badge/Seaborn-%234479A1.svg?style=flat&logo=python&logoColor=white) — Visualizações estatísticas avançadas e mapas de calor.
+    * ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=flat&logo=Matplotlib&logoColor=black) ~ Criação de gráficos base para análise de impacto.
+    * ![Seaborn](https://img.shields.io/badge/Seaborn-%234479A1.svg?style=flat&logo=python&logoColor=white) ~ Visualizações estatísticas avançadas e mapas de calor.
 
 > ***Resultados***
 
@@ -40,8 +40,7 @@ A análise dos coeficientes revelou os fatores determinantes na educação:
 
 <div align="center">
   
-## 👤 Autor
-
+##
   <table>
     <tr>
       <td align="center">
