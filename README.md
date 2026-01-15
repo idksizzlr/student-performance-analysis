@@ -28,12 +28,12 @@ Observamos uma evolução significativa na capacidade preditiva ao comparar as e
 * **One-vs-All (OvA):** Alcançou uma acurácia de **74.22%**. Embora eficiente, enfrentou desafios com o desbalanceamento inerente ao comparar uma classe contra todas as outras.
 * **One-vs-One (OvO):** Elevou a acurácia para impressionantes **94.23%**. Ao focar em distinguir pares específicos de classes, o modelo capturou nuances fundamentais dos dados.
 
-## 🔍 Insights de Variáveis (Feature Importance)
+> ***Insights de Variáveis (Feature Importance)***
 
 A análise dos coeficientes revelou os fatores determinantes na educação:
 
-- **Histórico Acadêmico (G1 e G2):** São os preditores dominantes. No modelo OvO, a variável **G2** apresentou o maior impacto (**5.27**), seguida por **G1** (**2.81**).
-- **Esforço e Histórico:** O **tempo de estudo (studytime)** e o histórico de **reprovações (failures)** aparecem como os principais fatores secundários.
+- **Histórico Acadêmico (G1 e G2):** São os preditores dominantes. No modelo OvO, a variável **G2** apresentou o maior impacto (**5.27**), seguida por **G1** (**2.81**). Fator que era esperado desde o início, visto que elas são variáveis que compõe a formação de G3 (A média final).
+- **Esforço e Histórico:** O **tempo de estudo (studytime)** e o histórico de **reprovações (failures)** aparecem como os principais fatores secundários, influenciando em demasia a performance do estudo.
 - **Fatores Periféricos:** Variáveis como consumo de álcool e escolaridade dos pais tiveram impacto reduzido quando comparadas ao desempenho direto em sala de aula.
 
 ---
@@ -66,6 +66,6 @@ A análise dos coeficientes revelou os fatores determinantes na educação:
     </tr>
   </table>
 
-*Obrigado por acompanhar este estudo! Se este projeto foi útil para você, considere deixar uma ⭐️.*
+*Obrigado por acompanhar este estudo!*
 
 </div>
